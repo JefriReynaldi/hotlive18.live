@@ -1,0 +1,47 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}{
+ 
+  "writeKey": "a7510199233652634950-f56ee015229be060b00978114a32f90846140b9b76d1a441b7c5709503bc3a10",
+  "readKey": "a7510199233652634950-84a86494e5de3e3c9a511525441c47e6f2c5df828167401b4f574c5b22b6ea5e",
+  
+  "upload": {  
+    "type": "json",
+    "files": "translations/en.json"         
+  },
+  
+  "download": {
+    "files": "translations/${lang}.json"
+  }
+  
+}{
+ 
+  "writeKey": "a7510199233652634950-f56ee015229be060b00978114a32f90846140b9b76d1a441b7c5709503bc3a10",
+  "readKey": "a7510199233652634950-84a86494e5de3e3c9a511525441c47e6f2c5df828167401b4f574c5b22b6ea5e",
+  
+  "upload": {  
+    "type": "json",
+    "files": "translations/en.json"         
+  },
+  
+  "download": {
+    "files": "translations/${lang}.json"
+  }
+  
+}{
+ 
+  "writeKey": "a7510211974809963224-7b8f018aa955fcb6573d9fe4f792f4a5094ee9aa56f55c417275e4b593937edd",
+  "readKey": "a7510211974809963224-83ef44147b674492c081a303fc96647141bb9b657c488f754af7310c58892802",
+  
+  "upload": {  
+    "type": "xcstrings",
+    "files": "locales/en.xcstrings"         
+  },
+  
+  "download": {
+    "files": "locales/${lang}.xcstrings"
+  }
+  
+}
